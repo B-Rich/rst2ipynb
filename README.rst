@@ -27,12 +27,12 @@ In my humble opinion |--| as the phrase goes |--| reading and executing IPython
 notebooks is great BUT: authoring IPython notebooks is rather cumbersome and
 tricky.  This is perhaps due to my personal preferences of using the Vim editor
 and the corresponding plugin for firefox: Vimperator. I actually prefer
-creating presentations and blog-posts using my familiar tools in a familiar
-markup language. Writing text into HTML text windows is just such a pain and
-switching around between cells is so cumbersome. Also I still have issues with
-copy and pasting stuff from the notebooks. Anyway, it's just my personal
-preference and you are by no means obliged to agree with me. But if you do,
-please feel free to use the code.
+creating presentations and blog-posts (soon to come) using my familiar tools in
+a familiar markup language. Writing text into HTML text windows is just such a
+pain and switching around between cells is so cumbersome. Also I still have
+issues with copy and pasting stuff from the notebooks. Anyway, it's just my
+personal preference and you are by no means obliged to agree with me; but if
+you do, please feel free to use the code.
 
 Features
 --------
@@ -40,6 +40,13 @@ Features
 Currently I can convert headings to markdown headings, paragraphs to markdown
 paragraphs (using pypandoc) and code-blocks to code-cells. See the file
 ``example.rst`` for details.
+
+But where is...?
+----------------
+
+... documentation, dependency specification, packaging, working unit-tests,
+continuous-integration, PyPi availability, Debian package? Yeah... um... sure,
+just send a Pull-Request?
 
 Usage
 -----
@@ -84,3 +91,9 @@ Then, to remove the empty merge commits:
 Where ``84b2dd132646d5b80ee6d1d121c2452bc3bfce86`` is the root commit of the repo.
 
 Originally it was 723 commits -- only 38 remained.
+
+Licence
+-------
+
+The original code was released under the same licence as IPython and as such
+this project inherits that licence.
