@@ -8,17 +8,22 @@ Origins
 
 This base code was originally part of the nbconvert project before it was
 merged into the IPython repository proper sometime during the summer of 2013.
-At the time I was working on improving the ``rst2ipynb.py`` script in order to
-auto-translate teaching material from http://scipy-lectures.github.io/ in order
-to give a numpy tutorial at Scipy2013:
+At the time I was working on improving the ``rst2ipynb.py`` script so that I
+could auto-translate teaching material from http://scipy-lectures.github.io/ in
+order to give a numpy tutorial at Scipy2013:
 http://conference.scipy.org/scipy2013/tutorial_detail.php?id=100 and
 https://github.com/esc/scipy2013-tutorial-numpy-ipython. It didn't work
 perfectly, and I had to tweak and post-process the material, but I did get the
-bulk translated successfully. In Summer 2014 I wasn't able to find a suitable
-alternative and thus decided to work some git-magic to extract the history from
-the nbconvert repository and augment it with the improvements from my github
-fork to provided a basis for further development. Importantly, all the original
-commits and their metadata and thus all attributions were retained.
+bulk translated successfully. In essence, I think there is alot of good
+teaching material and tutorials out there but they are written in sphinx. It
+would be nice to present these in the IPython notebook to facilitate
+experimentation and interactivity.
+
+In Summer 2014 I wasn't able to find a suitable alternative and thus decided to
+work some git-magic to extract the history from the nbconvert repository and
+augment it with the improvements from my github fork to provided a basis for
+further development. Importantly, all the original commits and their metadata
+and thus all attributions were retained.
 
 Why would I want this?
 ----------------------
@@ -34,6 +39,10 @@ issues with copy and pasting stuff from the notebooks. Anyway, it's just my
 personal preference and you are by no means obliged to agree with me; but if
 you do, please feel free to use the code.
 
+Also, judging from this stackoverflow post, I am not the only one wanting this:
+
+http://stackoverflow.com/questions/22781811/how-to-convert-restructuredtext-docs-to-ipython-notebooks
+
 Features
 --------
 
@@ -41,12 +50,17 @@ Currently I can convert headings to markdown headings, paragraphs to markdown
 paragraphs (using pypandoc) and code-blocks to code-cells. See the file
 ``example.rst`` for details.
 
+Bugs
+----
+
+Probably quite a lot.
+
 But where is...?
 ----------------
 
 ... documentation, dependency specification, packaging, working unit-tests,
 continuous-integration, PyPi availability, Debian package? Yeah... um... sure,
-just send a Pull-Request?
+just send a Pull-Request...?
 
 Usage
 -----
@@ -56,6 +70,11 @@ Usage
    $ ./rst2ipynb.py input.rst > output.ipynb
    $ ipython notebook
 
+Alternatives
+------------
+
+* Hailing from the PyMVPA project: https://github.com/ariddell/rst2ipynb
+* Similar, but using markdown: https://pypi.python.org/pypi/notedown/1.0.3
 
 Resurrection Details
 --------------------
