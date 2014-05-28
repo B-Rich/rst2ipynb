@@ -31,6 +31,9 @@ except ImportError:
 
 from IPython.nbformat import current as nbformat
 import pypandoc
+# the following import might seem unused, but it's side-effects are required
+# for the code-block directive to work.
+from sphinx import highlighting
 
 # the ipython prompt regular expression
 IPYPROMPT = re.compile(r"(?P<prompt>In \[[0-9]+\]:)(?P<code>.*)")
