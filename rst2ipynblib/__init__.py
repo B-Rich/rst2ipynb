@@ -5,7 +5,6 @@ Simple ipython notebook document tree Writer.
 
 __docformat__ = 'reStructuredText'
 
-import ipython_console_highlighting
 
 import sys
 import os
