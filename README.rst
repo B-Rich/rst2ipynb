@@ -16,7 +16,7 @@ https://github.com/esc/scipy2013-tutorial-numpy-ipython. It didn't work
 perfectly, and I had to tweak and post-process the material, but I did get the
 bulk translated successfully. In essence, I think there is alot of good
 teaching material and tutorials out there but they are written in sphinx. It
-would be nice to present these in the IPython notebook to facilitate
+would be nice to present these in the IPython notebook format to facilitate
 experimentation and interactivity.
 
 In Summer 2014 I wasn't able to find a suitable alternative and thus decided to
