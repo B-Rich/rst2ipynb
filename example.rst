@@ -12,8 +12,8 @@ markdown cell by doing a call to ``pandoc`` via ``pypandoc``.
 .. code-block:: pycon
 
    >>> import this
-   >>> print("This is a code block using the 'console' highlighting")
+   >>> print("This is a code block using the 'pycon' highlighting")
 
 .. code-block:: ipython
 
-   In [1]: print('ipython code blocks are also supported')
+   In [1]: print("ipython code blocks are also supported, using 'ipython'")
