@@ -50,6 +50,14 @@ Currently I can convert headings to markdown headings, paragraphs to markdown
 paragraphs (using pypandoc) and code-blocks to code-cells. See the file
 ``example.rst`` for details.
 
+Usage
+-----
+
+.. code-block::
+
+   $ ./rst2ipynb.py input.rst > output.ipynb
+   $ ipython notebook
+
 Bugs
 ----
 
@@ -62,13 +70,10 @@ But where is...?
 continuous-integration, PyPi availability, Debian package? Yeah... um... sure,
 just send a Pull-Request...?
 
-Usage
------
+Hacking and Modifying
+---------------------
 
-.. code-block::
-
-   $ ./rst2ipynb.py input.rst > output.ipynb
-   $ ipython notebook
+Here be dragons...
 
 Alternatives
 ------------
@@ -110,6 +115,7 @@ Then, to remove the empty merge commits:
 Where ``84b2dd132646d5b80ee6d1d121c2452bc3bfce86`` is the root commit of the repo.
 
 Originally it was 723 commits -- only 38 remained.
+
 
 Licence
 -------
